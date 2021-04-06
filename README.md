@@ -6,4 +6,4 @@ _WaitQueue_ is an object based on _sync.WaitGroup_ added with a buffered channel
 
 `(g *WaitQueue) Deq()` - Done() on inner wait group
 
-`func (g *WaitQueue) Wait()` - Wait() on inner wait group
+`(g *WaitQueue) Wait()` - Wait() on inner wait group
